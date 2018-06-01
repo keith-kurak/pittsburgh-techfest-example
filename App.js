@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { View } from 'react-native';
-import Storyboard from './storyboard';
+import Storyboard from './app/storyboard';
 
 export default class App extends Component {
   render() {

@@ -2,7 +2,7 @@
   "expo": {
     "name": "pittsburgh-techfest-example",
     "description": "No description",
-    "slug": "snack-H1LV0rAkm",
+    "slug": "pittsburgh-techfest-exmaple",
     "privacy": "unlisted",
     "sdkVersion": "27.0.0",
     "version": "1.0.0",
@@ -22,7 +22,22 @@
       ]
     },
     "ios": {
-      "supportsTablet": true
+      "buildNumber": "1",
+      "config": {
+        "usesNonExemptEncryption": false
+      },
+      "supportsTablet": false,
+      "bundleIdentifier": "com.keith.pittsburghtechfestexample"
+    },
+    "android": {
+      "versionCode": 1,
+      "permissions": [
+        "CAMERA",
+        "com.google.android.c2dm.permission.RECEIVE",
+        "WRITE_EXTERNAL_STORAGE",
+        "READ_EXTERNAL_STORAGE"
+      ],
+      "package": "com.keith.pittsburghtechfestexample"
     }
   }
 }

@@ -20,5 +20,12 @@
     "react-native-keyboard-spacer": "0.4.1",
     "react-native-material-initials": "0.0.12",
     "react-navigation": "2.0.1"
+  },
+  "devDependencies": {
+    "babel-plugin-module-resolver": "^3.1.0",
+    "eslint": "4.13.1",
+    "eslint-config-universe": "^1.0.6",
+    "eslint-import-resolver-react-native": "^0.1.0",
+    "prettier": "^1.9.2"
   }
 }
